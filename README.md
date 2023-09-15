@@ -22,6 +22,16 @@ Configure a python virtual environment for the class (from the project directory
 NOTE: Install other required packages to this virtual environment.
 There was at least one but I didn't write it down when I installed it.
 
+## Other Dependencies
+
+```PowerShell
+& choco install pandoc
+```
+
+Download and install [MiKTeX](https://miktex.org/download) (required for notebook exports).
+Follow the prompts to install updates after initial installation.
+NOTE: I required a reboot to ensure `xelatex` was correctly path'd for exports.
+
 ## Local Development
 
 From the project directory:
