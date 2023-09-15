@@ -22,7 +22,7 @@ Configure a python virtual environment for the class (from the project directory
 NOTE: Install other required packages to this virtual environment.
 There was at least one but I didn't write it down when I installed it.
 
-## Other Dependencies
+## Other Dependencies For PDF Export
 
 ```PowerShell
 & choco install pandoc
