@@ -16,11 +16,15 @@ Configure a python virtual environment for the class (from the project directory
 & python -m venv cs5610
 & ./cs5610/Scripts/activate.ps1
 & pip install -U pip wheel
-& pip install install numpy scipy matplotlib pandas scikit-learn seaborn patsy statsmodels jupyter
+& pip install numpy scipy matplotlib pandas scikit-learn `
+	seaborn patsy statsmodels jupyter
 ```
 
 NOTE: Install other required packages to this virtual environment.
 There was at least one but I didn't write it down when I installed it.
+
+
+At some point, I needed to run `pip install -U scikit-learn` to get `sklearn` imports to work.
 
 ## Other Dependencies For PDF Export
 
