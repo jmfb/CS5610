@@ -17,7 +17,7 @@ Configure a python virtual environment for the class (from the project directory
 & ./cs5610/Scripts/activate.ps1
 & pip install -U pip wheel
 & pip install numpy scipy matplotlib pandas scikit-learn `
-	seaborn patsy statsmodels jupyter
+	seaborn patsy statsmodels jupyter pyarrow
 ```
 
 NOTE: Install other required packages to this virtual environment.
