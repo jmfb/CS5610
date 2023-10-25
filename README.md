@@ -17,7 +17,9 @@ Configure a python virtual environment for the class (from the project directory
 & ./cs5610/Scripts/activate.ps1
 & pip install -U pip wheel
 & pip install numpy scipy matplotlib pandas scikit-learn `
-	seaborn patsy statsmodels jupyter pyarrow
+	seaborn patsy statsmodels jupyter `
+	pyarrow `
+	graphviz
 ```
 
 NOTE: Install other required packages to this virtual environment.
@@ -35,6 +37,14 @@ At some point, I needed to run `pip install -U scikit-learn` to get `sklearn` im
 Download and install [MiKTeX](https://miktex.org/download) (required for notebook exports).
 Follow the prompts to install updates after initial installation.
 NOTE: I required a reboot to ensure `xelatex` was correctly path'd for exports.
+
+## Other Dependencies for GraphViz (Decision Tree visualizer)
+
+Download and install graphviz:
+https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/9.0.0/windows_10_cmake_Release_graphviz-install-9.0.0-win64.exe
+
+
+NOTE: The `choco install -y graphviz` does not work and complains it does not support 64-bit architecture.
 
 ## Local Development
 
