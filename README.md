@@ -19,7 +19,8 @@ Configure a python virtual environment for the class (from the project directory
 & pip install numpy scipy matplotlib pandas scikit-learn `
 	seaborn patsy statsmodels jupyter `
 	pyarrow `
-	graphviz
+	graphviz `
+	xlrd
 ```
 
 NOTE: Install other required packages to this virtual environment.
